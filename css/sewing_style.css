@@ -1,0 +1,43 @@
+/*********************** Tag Selectors ********************/
+body{
+  background-color: #F9EEFC;
+}
+h1{
+  color: #D975EA;
+}
+h2{
+  color: #E09CEC;
+}
+h3{
+  color: #E2AAEC;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width:5%;
+
+}
+img{
+  width: 30%;
+  height: 30%;
+  background-color: #C38EFB;
+}
+
+/*********************** Class Selectors ********************/
+.circular {
+  border-radius: 100%;
+}
+.thread {
+  background-color: #FCC0F3;
+}
+.yarn {
+  background-color: #C0FCE0;
+}
+
+/*********************** ID Selectors ********************/
+#heading {
+  text-shadow: #C8CAC9;
+  color: blue;
+}
