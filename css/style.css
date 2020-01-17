@@ -9,17 +9,16 @@ h1 {
   margin: 0 auto;
   width: 20%;
   color: #ac8daf;
+  font-family: 'Dancing Script', cursive;
+
 }
 
-.title {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #484c7f;
-}
+
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   color: #ac8daf;
-  font-weight: bold;
+  font-size: 10;
   /*color: #66BFBF;*/
 }
 
@@ -32,9 +31,26 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
   color: #484c7f;
   line-height: 2;
+  font-size: 1.2rem;
 }
 
 hr {
+  border-style: dotted;
+  color: #f1d4d4;
+  width: 4%;
+  border-width: 5px;
+  margin: 100px auto;
+  border-bottom: none;
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: #484c7f;
+}
+.webDesignerTitle{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+.customDots{
   border-style: dotted;
   color: #f1d4d4;
   width: 4%;
@@ -46,23 +62,29 @@ hr {
 .cherrytree-img {
   width: 300px;
   height: 300px;
+  margin-top: 20px;
 }
 
-.webdesigner_font {
-  font-weight: normal;
-}
 
 .profile {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   text-align: center;
   line-height: 2;
   align-content: center;
 }
-
+.pro-img {
+  width: 25%;
+  margin: 20px auto;
+}
+.skills{
+  margin-bottom: 50px;
+}
 .skills-img {
   width: 25%;
   height: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .skill-row {
@@ -76,6 +98,7 @@ hr {
   text-align: left;
   color: #484c7f;
   font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 0;
 }
 
 .top_cloud {
@@ -89,12 +112,16 @@ hr {
   left: 300px;
   bottom: 300px;
 }
+.abovetop{
+  background-color: #f1d4d4;
+  position: relative;
 
+}
 .top-container {
   background-color: #f1d4d4;
   position: relative;
   padding-top: 50px;
-  /*  width: 200px;
+text-align: center; /*  width: 200px;
   height: 200px;
   border: solid 10px;
   padding: 20px;
@@ -104,6 +131,7 @@ hr {
 .middle-container {
   text-align: center;
   align-content: center;
+  margin: 10px auto;
   /*border: solid 20px;
   border-color: black;
 margin-left: 260px;*/
@@ -129,9 +157,7 @@ margin: auto 10px;
   color: #f1d4d4;
 }
 
-.pro-img {
-  width: 25%;
-}
+
 
 .computer-img {
   width: 25%;
@@ -139,11 +165,6 @@ margin: auto 10px;
   margin-left: 30px;
 }
 
-.skills-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
 
 .languages-img {
   width: 25%;
@@ -153,7 +174,7 @@ margin: auto 10px;
 
 .contact-me {
   width: 40%;
-  margin: 50px auto 60px;
+  margin: 100px auto 60px;
   align-content: center;
 }
 
